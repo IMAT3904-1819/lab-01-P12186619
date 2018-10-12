@@ -5,14 +5,14 @@
 
 int compInt = 0;
 int guessInt = 0;
-int guesses = 5;
+int guesses = 8;
 
 int checkGuess();
 
 int main()
 {
 	srand(time(NULL));
-	compInt = rand() % 100 + 1;
+	compInt = rand() % 1000 + 1;
 
 	
 	std::cout << "Random number=" << compInt << std::endl;
